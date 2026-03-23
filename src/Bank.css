@@ -1,0 +1,72 @@
+body{
+ margin:0;
+ font-family:Segoe UI;
+ background:#eef2f7;
+}
+
+.container{
+ display:flex;
+}
+
+.sidebar{
+ width:230px;
+ background:#020617;
+ color:white;
+ padding:20px;
+ min-height:100vh;
+}
+
+.main{
+ flex:1;
+ padding:25px;
+}
+
+.card{
+ background:#4f46e5;
+ color:white;
+ padding:20px;
+ border-radius:12px;
+ width:200px;
+}
+
+.card2{
+ background:#059669;
+ color:white;
+ padding:20px;
+ border-radius:12px;
+ width:200px;
+}
+
+.atm{
+ margin-top:20px;
+ background:linear-gradient(135deg,#1e3a8a,#9333ea);
+ color:white;
+ padding:20px;
+ border-radius:15px;
+ width:350px;
+}
+
+.formCard{
+ background:white;
+ padding:15px;
+ border-radius:10px;
+ margin-top:20px;
+}
+
+.tableCard{
+ background:white;
+ padding:15px;
+ border-radius:10px;
+ margin-top:20px;
+}
+
+input{
+ padding:8px;
+ margin:5px;
+}
+
+button{
+ padding:7px 14px;
+ margin:5px;
+ cursor:pointer;
+}

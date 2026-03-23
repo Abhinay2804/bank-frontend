@@ -1,0 +1,130 @@
+body{
+ margin:0;
+ font-family:Segoe UI;
+ transition:0.4s;
+}
+
+/* ⭐ LIGHT / DARK THEME */
+.light{
+ background:#eef2f7;
+ color:black;
+}
+
+.dark{
+ background:#020617;
+ color:white;
+}
+
+/* ⭐ SIDEBAR */
+.sidebar{
+ position:fixed;
+ left:0;
+ top:0;
+ width:220px;
+ height:100%;
+ background:#111827;
+ color:white;
+ padding:20px;
+ transition:0.4s;
+}
+
+.sidebar:hover{
+ width:250px;
+}
+
+/* ⭐ MAIN CONTENT */
+.main{
+ margin-left:240px;
+ padding:25px;
+}
+
+/* ⭐ BUTTON */
+.toggleBtn{
+ background:#2563eb;
+ color:white;
+ border:none;
+ padding:10px 15px;
+ border-radius:8px;
+ cursor:pointer;
+ margin-top:10px;
+}
+
+/* ⭐ DASHBOARD CARDS */
+.cardRow{
+ display:flex;
+ gap:20px;
+ margin-top:20px;
+}
+
+.card{
+ flex:1;
+ background:white;
+ padding:20px;
+ border-radius:15px;
+ box-shadow:0 10px 20px rgba(0,0,0,0.1);
+ transition:0.3s;
+}
+
+.card:hover{
+ transform:translateY(-5px);
+}
+
+/* ⭐ ⭐ BLUE ATM CARD DESIGN */
+.atmCard{
+ margin-top:20px;
+ width:350px;
+ padding:20px;
+ border-radius:20px;
+ background:linear-gradient(120deg,#0ea5e9,#2563eb,#1e3a8a);
+ color:white;
+ box-shadow:0 12px 30px rgba(0,0,0,0.35);
+ position:relative;
+ overflow:hidden;
+ transition:0.4s;
+}
+
+.atmCard:hover{
+ transform:scale(1.03);
+}
+
+.atmCard::after{
+ content:"";
+ position:absolute;
+ top:-40px;
+ right:-40px;
+ width:120px;
+ height:120px;
+ background:rgba(255,255,255,0.15);
+ border-radius:50%;
+}
+
+/* ⭐ PIE CHART BOX */
+.chartBox{
+ width:300px;
+ background:white;
+ padding:15px;
+ border-radius:15px;
+ margin-top:20px;
+}
+
+/* ⭐ TOAST NOTIFICATION */
+.toast{
+ position:fixed;
+ top:20px;
+ right:20px;
+ padding:15px;
+ border-radius:8px;
+ color:white;
+ animation:slide 0.4s ease;
+}
+
+@keyframes slide{
+ from{
+   transform:translateX(120px);
+   opacity:0;
+ }
+ to{
+   transform:translateX(0);
+   opacity:1;
+ }
+}

@@ -1,0 +1,91 @@
+body{
+ margin:0;
+ font-family:Segoe UI;
+ background:#eef2f7;
+}
+
+.container{
+ display:flex;
+}
+
+.sidebar{
+ width:240px;
+ background:#020617;
+ color:white;
+ padding:20px;
+ min-height:100vh;
+}
+
+.main{
+ flex:1;
+ padding:25px;
+}
+
+.card{
+ background:#4f46e5;
+ color:white;
+ padding:20px;
+ border-radius:12px;
+ width:220px;
+}
+
+.card2{
+ background:#059669;
+ color:white;
+ padding:20px;
+ border-radius:12px;
+ width:220px;
+}
+
+.formCard,.tableCard,.chartCard{
+ background:white;
+ padding:15px;
+ border-radius:12px;
+ margin-top:20px;
+}
+
+.badgeLow{
+ background:#ef4444;
+ color:white;
+ padding:5px 10px;
+ border-radius:8px;
+}
+
+.badgeMid{
+ background:#f59e0b;
+ color:white;
+ padding:5px 10px;
+ border-radius:8px;
+}
+
+.badgeHigh{
+ background:#10b981;
+ color:white;
+ padding:5px 10px;
+ border-radius:8px;
+}
+
+.recommend{
+ margin-top:10px;
+ background:#0ea5e9;
+ color:white;
+ padding:10px;
+ border-radius:10px;
+}
+
+.gauge{
+ margin-top:10px;
+ font-size:20px;
+ font-weight:bold;
+}
+
+input{
+ padding:8px;
+ margin:5px;
+}
+
+button{
+ padding:6px 12px;
+ margin:5px;
+ cursor:pointer;
+}
